@@ -1,0 +1,20 @@
+include LICENSE
+include README.md
+
+# Include the model files
+include bailarn/tokenizer/models/0014-0.0443.hdf5
+include bailarn/word_embedder/models/w2v.bin
+include bailarn/word_embedder/models/w2v.bin.syn1neg.npy
+include bailarn/word_embedder/models/w2v.bin.wv.syn0.npy
+include bailarn/categorization/models/cnn_xmtc_model.h5
+include bailarn/ner/models/ner_crf_e40.h5
+include bailarn/pos/models/dufualt_model_bi_lstm_crf.hdf5
+include bailarn/keyword_expansion/models/phone_lower
+include bailarn/keyword_expansion/models/phone_lower.syn1neg.npy
+include bailarn/keyword_expansion/models/phone_lower.wv.syn0.npy
+include bailarn/sentiment/models/cnn_multi_2tag_e3.h5
+include bailarn/categorization/threshold_selection.json
+include bailarn/ner/ner_word_index.pickle
+include bailarn/sentiment/sentiment_word_index.pickle
+include bailarn/pos/pos_word_index.json
+include bailarn/categorization/categorization_word_index.json
